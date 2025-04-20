@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "talkingtask.h": "c",
+        "ui_helpers.h": "c",
+        "wifi.h": "c",
+        "espnowtask.h": "c",
+        "ui_events.h": "c"
+    }
+}
