@@ -4,10 +4,10 @@
 
 // 配置常量
 namespace Config {
-    constexpr char WIFI_SSID[] = "vivo iQOO 10 Pro";
-    constexpr char WIFI_PASSWORD[] = "Srd030308";
+    constexpr char WIFI_SSID[] = "*******";
+    constexpr char WIFI_PASSWORD[] = "*******";
     constexpr char API_HOST[] = "api.seniverse.com";
-    constexpr char WEATHER_PRIVATE_KEY[] = "SMpFTVNrLKQV2F8IA";
+    constexpr char WEATHER_PRIVATE_KEY[] = "*********";
     constexpr char WEATHER_CITY[] = "ningbo";
     constexpr char WEATHER_LANGUAGE[] = "en";
     constexpr size_t ADC_DATA_LEN = 16000;  // 8K采样率，2秒录音时间
@@ -34,8 +34,8 @@ struct WeatherData {
 };
 
 // API URLs
-const String ERNIE_API_URL = "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/ernie-speed-128k?access_token=24.b44c45a7ecffab21e8b80f40c323d61a.2592000.1720965950.282335-56458526";
-const String WEATHER_API_URL = "https://api.seniverse.com/v3/weather/daily.json?key=SMpFTVNrLKQV2F8IA&location=ningbo&language=zh-Hans&unit=c&start=0&days=1";
+const String ERNIE_API_URL = "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/ernie-speed-128k?access_token=****************************************";
+const String WEATHER_API_URL = "https://api.seniverse.com/v3/weather/daily.json?key=*********************&location=ningbo&language=zh-Hans&unit=c&start=0&days=1";
 
 extern char recordkey;
 
